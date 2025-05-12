@@ -1,0 +1,35 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-group {
+  gap: 0.5rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,0.25);
+  border-color: #86b7fe;
+}
+
+.badge {
+  font-size: 0.85em;
+  padding: 0.5em 0.85em;
+} 
